@@ -14,11 +14,7 @@ pipeline {
 
       steps {
 
-        sh '''
-
-          java -version
-
-        '''
+      echo "This is the main branch of the multibranch pipeline"
 
       }
 
